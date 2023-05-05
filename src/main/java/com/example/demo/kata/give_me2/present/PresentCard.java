@@ -7,6 +7,7 @@ import com.example.demo.kata.give_me2.present.impl.RedPresent;
 import java.util.List;
 
 public enum PresentCard {
+    // per request, singleton은 그때 그때 다르게
     RUBY_CARD("GOLD_CARD", List.of(new RedPresent(), new GoldPresent(), new GoldPresent())),
     STONE_CARD("RED_CARD", List.of(new RedPresent()));
 
